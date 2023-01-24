@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const Port = 8080;
+const Port = 80;
 
 app.get("/", (req, res) => {
     res.send("Hello from the cloud!!!");
